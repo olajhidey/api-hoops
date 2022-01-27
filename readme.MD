@@ -1,0 +1,1 @@
+## Deploying Powershell Function app on Azure DevOps services
