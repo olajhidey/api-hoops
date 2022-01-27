@@ -12,7 +12,7 @@ if (-not $name) {
     $name = $Request.Body.Name
 }
 
-$body = "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+$body = "Welcome to HTTP trigger without the name Parameter"
 
 if ($name) {
     $body = "Hello, $name. This HTTP triggered function executed successfully."
